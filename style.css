@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hidden{
+  display: none;
+}
+
+body {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1558486012-817176f84c6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1804&q=80');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.weather-container {
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 5px 5px 10px rgb(187, 187, 187), -5px -5px 10px rgb(187, 187, 187);
+  padding: 2rem 1.5rem;
+}
+
+#input-box {
+  height: 40px;
+  border-radius: 4px;
+  background: #fbfbfb;
+  box-shadow: inset 5px 5px 10px #969696, inset -5px -5px 10px #ffffff;
+  border: none;
+  padding: 0.5rem;
+  width: 100%;
+  outline: none;
+  margin: 1rem 0;
+  color: #04BFAD;
+  font-weight: 600;
+}
+
+.weather-box {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.location {
+  font-weight: 700;
+  color: #025159;
+  text-transform: uppercase;
+}
+
+.time-info {
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: #025159;
+}
+
+.temperature{
+    color: #025959;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.min-max{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #025159;
+}
+
+.weather-status{
+    color: #025159;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.weather-img{
+    height: 50px;
+    width: auto;
+    background-color: #025159;
+    margin: auto;
+}
